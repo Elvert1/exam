@@ -21,7 +21,7 @@ func Itoa(n int) string {
 	flag := false
 	res := ""
 	if n < 0 {
-		n = -1
+		n *= -1
 		flag = true
 	}
 	if n == 0 {
